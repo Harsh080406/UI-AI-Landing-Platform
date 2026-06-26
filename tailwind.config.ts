@@ -9,8 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        arctic: "var(--color-arctic)",
+        mint: "var(--color-mint)",
+        forsythia: "var(--color-forsythia)",
+        saffron: "var(--color-saffron)",
+        nocturnal: "var(--color-nocturnal)",
+        noir: "var(--color-noir)",
+      },
+      fontFamily: {
+        display: ["var(--font-display)", "monospace"],
+        body: ["var(--font-body)", "sans-serif"],
       },
     },
   },
